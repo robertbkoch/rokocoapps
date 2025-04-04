@@ -12,7 +12,7 @@ Robert Koch, operating under the name "rokocodesign" ("we," "our," or "us"), res
 
 When you use StickerMe, you may upload photos from your device for the purpose of generating stickers. We process these images as follows:
 - Images are temporarily stored on our servers solely for the purpose of processing your sticker request
-- Images are sent to OpenAI for sticker generation
+- Images are sent to a third party provider for sticker generation
 - Once processing is complete, your original images are immediately deleted from our servers
 - We do not retain copies of your uploaded images
 - Your images are not used for training AI models or for any purpose other than generating your requested stickers
