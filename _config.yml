@@ -1,5 +1,4 @@
-theme: jekyll-theme-minimal
-title: Legal Documents
+title: StickerMe
 markdown: kramdown
 kramdown:
   input: GFM
