@@ -17,7 +17,7 @@ The App is intended for users who are 13 years of age or older. By using the App
 StickerMe allows you to:
 - Upload photos from your device
 - Select styles provided in the App
-- Generate stickers using AI technology provided by OpenAI
+- Generate stickers using AI technology provided by a third party provider
 - Save generated stickers to your device
 - Share stickers via social media or other applications
 
