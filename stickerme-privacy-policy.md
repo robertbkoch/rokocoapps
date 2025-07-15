@@ -83,4 +83,4 @@ If you have any questions or comments about this Privacy Policy, please contact 
 
 ## Your Rights
 
-Depending on your location, you may have certain rights regarding your personal information. Since we collect minimal personal information, most of these rights may not apply to your use of StickerMe. However, you may contact us at the above email address with any privacy-related concerns.
+Depending on your location, you may have certain rights regarding your personal information. Since we collect minimal personal information, most of these rights may not apply to your use of StickerMe. However, you may contact us at the above email address with any privacy-related concerns. 

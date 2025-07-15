@@ -3,11 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legal Documents</title>
+    <title>Roko Code Design - Apps</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+        }
+        .app-section {
+            margin-bottom: 50px;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #007bff;
+        }
+        .app-section:last-child {
+            margin-bottom: 0;
+        }
+        h2 {
+            color: #007bff;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        .app-description {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            color: #555;
+        }
+        .document-links {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .document-link {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+        .document-link:hover {
+            background: #0056b3;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #666;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .app-section {
+                padding: 20px;
+            }
+            .document-links {
+                flex-direction: column;
+            }
+        }
+    </style>
 </head>
 <body>
-    <a href="privacy-policy">Privacy Policy</a>
-    <br>
-    <a href="terms-and-conditions">Terms and Conditions</a>
+    <div class="container">
+
+        <div class="app-section">
+            <h2>StickerMe</h2>
+            <p class="app-description">
+                Transform your photos into amazing stickers with AI-powered generation. Create personalized stickers for messaging, social media, and more.
+            </p>
+            <div class="document-links">
+                <a href="stickerme-privacy-policy" class="document-link">Privacy Policy</a>
+                <a href="stickerme-terms-and-conditions" class="document-link">Terms & Conditions</a>
+            </div>
+        </div>
+        
+        <div class="app-section">
+            <h2>Runrush</h2>
+            <p class="app-description">
+                RunRush turns your runs into a weekly team game where runners work together to hit 500 points and climb the leaderboards.
+            </p>
+            <div class="document-links">
+                <a href="runrush-privacy-policy" class="document-link">Privacy Policy</a>
+                <a href="runrush-terms-and-conditions" class="document-link">Terms & Conditions</a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2025 rokocoapps. All rights reserved.</p>
+            <p>Contact: <a href="mailto:feedback@rokocodesign.com">feedback@rokocodesign.com</a></p>
+        </div>
+    </div>
 </body>
 </html>
